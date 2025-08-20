@@ -12,3 +12,17 @@ The goal is to build machine learning pipelines that can **detect fraudulent tra
 ---
 
 ## ⚙️ Project Structure
+fraud-detection-ieee/
+│
+├── src/ # Source code
+│ ├── eda.py # Exploratory Data Analysis
+│ ├── preprocess.py # Data preprocessing & feature engineering
+│ ├── train.py # Model training script
+│ ├── evaluate.py # Evaluation metrics & results
+│ └── utils.py # Helper functions
+│
+├── reports/ # Visualizations & generated plots
+├── requirements.txt # Dependencies
+├── .gitignore # Ignored files (datasets, cache, etc.)
+└── README.md # Project documentation
+
