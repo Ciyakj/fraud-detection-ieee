@@ -1,0 +1,14 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore large datasets
+data/raw/
+data/processed/*.csv
+
+# Ignore saved models
+models/*.pkl
+"data/ready/*.csv" 
+
+data/
+*.csv
